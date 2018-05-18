@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.eiraj.seekdoers.Views.Activities.ListingsActivity"
+    tools:showIn="@layout/app_bar_listing"
+    android:id="@+id/listings_activity_frame_layout"
+    android:clipToPadding="false"
+    android:outlineProvider="bounds">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listings_activity_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:clipToPadding="false"
+        android:background="#EEEEEE"
+        android:outlineProvider="bounds"/>
+
+    <ProgressBar
+        android:id="@+id/listings_progress_bar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/themeColor" />
+
+</RelativeLayout>

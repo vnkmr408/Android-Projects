@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eiraj.seekdoers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDert6yf3CvumJP9XS7wML2IBNm58qJnfY" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Views.Activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Views.Activities.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Views.Activities.SignInActivity" />
+        <activity android:name=".Views.Activities.SignUpActivity" />
+        <activity
+            android:name=".Views.Activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Views.Activities.SubCategoryActivity"
+            android:label="@string/title_activity_listing_category"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Views.Activities.ListingDetailActivity"
+            android:label="@string/title_activity_comapany_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Views.Activities.UpdateProfileActivity" />
+        <activity android:name=".Views.Activities.ChangePasswordActivity" />
+        <activity
+            android:name=".Views.Activities.ListingsActivity"
+            android:label="@string/title_activity_listing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Views.Activities.FilterActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Views.Activities.CommentsActivity" />
+        <activity android:name=".Views.Activities.SelectCategoryAcitivity"></activity>
+    </application>
+
+</manifest>

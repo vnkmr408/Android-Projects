@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/authorImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/user"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/authorNameTextView"
+                android:textColor="@color/themeColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Abhishek"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:id="@+id/commentStarImageView1"
+                    android:layout_width="@dimen/star_comments"
+                    android:layout_height="@dimen/star_comments"
+                    app:srcCompat="@drawable/star_empty" />
+
+                <ImageView
+                    android:id="@+id/commentStarImageView2"
+                    android:layout_width="@dimen/star_comments"
+                    android:layout_height="@dimen/star_comments"
+                    app:srcCompat="@drawable/star_empty" />
+
+                <ImageView
+                    android:id="@+id/commentStarImageView3"
+                    android:layout_width="@dimen/star_comments"
+                    android:layout_height="@dimen/star_comments"
+                    app:srcCompat="@drawable/star_empty" />
+
+                <ImageView
+                    android:id="@+id/commentStarImageView4"
+                    android:layout_width="@dimen/star_comments"
+                    android:layout_height="@dimen/star_comments"
+                    app:srcCompat="@drawable/star_empty" />
+
+                <ImageView
+                    android:id="@+id/commentStarImageView5"
+                    android:layout_width="@dimen/star_comments"
+                    android:layout_height="@dimen/star_comments"
+                    app:srcCompat="@drawable/star_empty" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/authorCommentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Awesome"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/commentDateTextView"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="Sept 10, 2017"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999"
+        android:alpha="0.3"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

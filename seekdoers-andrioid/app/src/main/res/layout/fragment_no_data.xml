@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eiraj.seekdoers.Views.Fragments.NoDataFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_data"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listing Not Found"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_margin="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:alpha="0.7"
+                android:text="Looks like we currently don't any vendor"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:alpha="0.7"
+                android:text="in this category at the moment"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

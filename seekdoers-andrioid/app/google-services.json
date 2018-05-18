@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822419717756",
+    "project_id": "seekdoers-176305"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822419717756:android:2777c53f23bcc8a1",
+        "android_client_info": {
+          "package_name": "com.virtuzo.seekdoers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822419717756-fmtpgqlcvu9omot7iudmqulf9u1gr1n1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "822419717756-cj0ehi515o6irfle6ui80urg2amjs2at.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.virtuzo.seekdoers",
+            "certificate_hash": "d8e52e86005f0c5f521c6294a3720653f5af562a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbVluLXeAVKJGmNNTzdSZH6bgZrJU3xMI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

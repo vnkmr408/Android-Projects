@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="195dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp"
+    android:translationZ="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/category_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/category_image_background"
+            android:elevation="0dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/dashboard" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/category_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/category_image_view"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Education &amp; Hobbies"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

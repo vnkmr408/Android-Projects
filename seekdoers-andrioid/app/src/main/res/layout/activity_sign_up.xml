@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eiraj.seekdoers.Views.Activities.SignUpActivity">
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:paddingLeft="5dp"
+        android:background="@drawable/edittext"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:paddingLeft="5dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="300dp"
+        android:background="@drawable/edittext"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:paddingLeft="5dp"
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="300dp"
+        android:background="@drawable/edittext"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:paddingLeft="5dp"
+        android:ems="10"
+        android:hint="Mobile No(optional)"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="300dp"
+        android:background="@drawable/edittext"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="5dp"
+        android:ems="10"
+        android:hint="Address(optional)"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/editText5" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="42dp"
+        android:text="I accept Terms &amp; Condition"
+        android:textColorLink="@color/check" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/button"
+        android:text="SIGN UP"
+        android:layout_below="@+id/checkBox"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@drawable/logo" />
+
+</android.widget.RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Seekdoers</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listing_category">ListingCategoryActivity</string>
+    <string name="title_activity_comapany_name">Comapany Name</string>
+    <string name="title_activity_listing">Listing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">161145877769903</string>
+    <string name="fb_login_protocol_scheme">fb161145877769903</string>
+
+</resources>

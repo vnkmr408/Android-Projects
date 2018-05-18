@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_changepass"
+            android:icon="@drawable/changepassword"
+            android:title="Change password"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/logout"
+            android:title="Log out"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_sign_in"
+            android:icon="@drawable/profile"
+            android:title="Sign In"
+            android:visible="true"/>
+
+
+        <item
+            android:id="@+id/nav_add_listing"
+            android:icon="@drawable/addlisting"
+            android:title="Add Listing" />
+
+
+        <item
+            android:id="@+id/nav_term_of_use"
+            android:icon="@drawable/terms"
+            android:title="Terms of Use" />
+
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+
+    </group>
+
+
+</menu>

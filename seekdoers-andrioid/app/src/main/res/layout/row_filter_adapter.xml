@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+
+    <TextView
+        android:id="@+id/tagsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="CREDIT CARD"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <Switch
+        android:id="@+id/tagsSwitch"
+        android:theme="@style/SwitchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:checked="false"
+        android:textOff="No"
+        android:textOn="Yes"
+        tools:checked="false" />
+
+</RelativeLayout>
