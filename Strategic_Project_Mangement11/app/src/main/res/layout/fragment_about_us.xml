@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.avish.spm.Activity.AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+
+
+        android:text="The project covers a wide scope. To manage the resources of a particular organization. This App will be used by the Administrator. A project admin will use this app to view all the resources (Analyst, Planner, Developer, Designer, Tester, and Quality Assurance.)Admin manage all the work and manage the resource ( planner , developer ,designer).Admin allocate the project and de-allocate project to employees on the time.An Admin is the person responsible for leading a project from its inception to execution. This includes planning, execution and managing the people, resources and scope of the project. An Admin  has full responsibility and authority to complete the assigned project." />
+
+</FrameLayout>

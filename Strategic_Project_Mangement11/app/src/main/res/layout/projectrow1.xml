@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/projectlist1"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="jdgvxvgxgdsgdgfgdfds"
+        android:textSize="25sp"
+        android:paddingLeft="15sp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/projectlist1"
+        android:layout_alignParentRight="true"
+        android:textSize="25sp" />
+</RelativeLayout>
